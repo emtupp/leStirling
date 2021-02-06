@@ -12,7 +12,7 @@ export default function ControlledTabs(props) {
       onSelect={(k) => setKey(k)}
     >
       <Tab eventKey="about" title="About the house">
-        {/* <Sonnet /> */}
+        <div> Hello World </div>
       </Tab>
       <Tab eventKey="tiny" title="Mini Stirling">
         {/* <Sonnet /> */}

@@ -1,4 +1,7 @@
 .nav-tabs {
   width: 100%;
   font-family: 'Bodoni Moda', serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
 }
