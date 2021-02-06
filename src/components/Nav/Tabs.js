@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+import { Tabs, Tab } from 'react-bootstrap';
 
 export default function ControlledTabs(props) {
-  const [key, setKey] = useState('home');
+  const [key, setKey] = useState('about');
 
   return (
     <Tabs
@@ -9,17 +11,21 @@ export default function ControlledTabs(props) {
       activeKey={key}
       onSelect={(k) => setKey(k)}
     >
-      <Tab eventKey="home" title="Home">
-        <Sonnet />
+      <Tab eventKey="about" title="About the house">
+        {/* <Sonnet /> */}
       </Tab>
-      <Tab eventKey="profile" title="Profile">
-        <Sonnet />
+      <Tab eventKey="tiny" title="Mini Stirling">
+        {/* <Sonnet /> */}
       </Tab>
-      <Tab eventKey="contact" title="Contact" disabled>
-        <Sonnet />
+      <Tab eventKey="book" title="Book a stay">
+        {/* <Sonnet /> */}
+      </Tab>
+      <Tab eventKey="comments" title="Leave a review">
+        {/* <Sonnet /> */}
+      </Tab>
+      <Tab eventKey="contact" title="Contact us">
+        {/* <Sonnet /> */}
       </Tab>
     </Tabs>
   );
-}
-
-render(<ControlledTabs />);
+};

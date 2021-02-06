@@ -1,9 +1,10 @@
 import React from 'react';
+import './Nav.css';
 
-import Tabs from './Tabs.js'
+import ControlledTabs from './Tabs.js'
 
 export default function Nav(props) {
   return (
-    <div className='nav'><Tabs /></div>
+    <div className='nav'><ControlledTabs /></div>
   )
 };
