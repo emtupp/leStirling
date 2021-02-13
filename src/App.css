@@ -1,3 +1,16 @@
+.logo {
+  display: flex;
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.name {
+  font-family: 'Coda', cursive;
+}
+
 .cover-image {
   max-width: 100%;
 }
