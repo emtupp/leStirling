@@ -1,0 +1,12 @@
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.textbox {
+  width: 70%;
+}
+
+.textbox-item {
+  margin: 2rem;
+}
