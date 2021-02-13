@@ -22,7 +22,7 @@ export default function ControlledTabs(props) {
       <Tab eventKey="book" title="Book a stay">
         {/* <Sonnet /> */}
       </Tab>
-      <Tab eventKey="comments" title="Leave a review">
+      <Tab eventKey="comments" title="Leave a review" disabled>
         {/* <Sonnet /> */}
       </Tab>
       <Tab eventKey="contact" title="Contact us">

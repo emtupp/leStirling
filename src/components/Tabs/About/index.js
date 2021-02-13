@@ -1,6 +1,9 @@
 import React from 'react';
 import './About.css';
+import TextBox from './TextBox';
 
 export default function About(props) {
-  return <div className='about'>Hello World</div>;
+  return <section className='about'>
+    <TextBox />
+  </section>;
 };
