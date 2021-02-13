@@ -3,6 +3,7 @@ import { Tabs, Tab } from 'react-bootstrap';
 import './Tabs.css';
 
 import About from './About';
+import Rent from './Rent';
 
 export default function ControlledTabs(props) {
   const [key, setKey] = useState('about');
@@ -20,7 +21,7 @@ export default function ControlledTabs(props) {
         {/* <Sonnet /> */}
       </Tab>
       <Tab eventKey="book" title="Book a stay">
-        {/* <Sonnet /> */}
+        <Rent />
       </Tab>
       <Tab eventKey="comments" title="Leave a review" disabled>
         {/* <Sonnet /> */}

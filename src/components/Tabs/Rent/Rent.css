@@ -1,0 +1,19 @@
+.rent {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rent-tiny {
+  padding: 20px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.card {
+  color: #ff5a60;
+  background-color: white;
+}
